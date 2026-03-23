@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void aaa(int z,int x);
+int x,z,c,a1,a2;
+int main(){
+
+cin >> a1;
+cin >> a2;
+
+
+
+
+aaa(a1,a2);
+
+
+	
+return 0;
+}
+
+void aaa(int z,int x){
+c = z + x;
+cout << c;
+
+
+}
