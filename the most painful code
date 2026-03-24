@@ -1,0 +1,18 @@
+extern "C" int __stdcall MessageBoxA(void*,const char*, const char*,unsigned);
+int main(){
+	MessageBoxA(0,"Òû ïîäóìàë ÷òî ýòî áóäåò â êîíñîëè","íå æèäàë",0);	
+	return 0;
+}
+
+//Русский:
+//Этот скрипт дался мне нелегко. Я совершал кучу ошибок и понял только половину, но я упертый и я все постараюсь понять.
+//Возраст: 14 лет
+//Год: 2011
+//English:
+//This script wasn't easy for me. I made a lot of mistakes and only understood half of it, but I am stubborn and I will do my best to understand everything.
+//Age: 14 years old
+//Year: 2011
+//繁體中文 (台灣):
+//這個腳本對我來說不容易。我犯了很多錯誤，只理解了一半，但我很固執，我會努力理解一切。
+//年齡：14歲
+//年份：2011年
