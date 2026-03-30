@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a1,a2,a4;
+char a3;
+cin >> a1;
+cin >> a2;
+cout << "- / +" << endl;
+cin >> a3;
+if(a3 == '+'){
+a4 = a1 + a2;
+}
+if(a3 == '-'){
+a4 = a1 - a2;
+}
+
+cout << "----------------------------" << endl;
+cout << a4;
+
+return 0;
+}
