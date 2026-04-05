@@ -1,0 +1,22 @@
+int a1 = 13;
+void setup() {
+  // put your setup code here, to run once:
+
+pinMode (a1, OUTPUT);
+ 
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(a1,HIGH);
+delay(1000);
+digitalWrite(a1,LOW);
+delay(1000);
+}
+
+//🇷🇺 Русский
+//«В данный момент я понял, что ту информацию по C++, которая мне нужна, я почему-то не могу найти в интернете. Я пришёл к выводу, что Arduino — это почти C++, поэтому, как минимум временно, я поучу её, чтобы научиться чистому C++.»
+//🇺🇸 English
+//"Right now, I’ve realized that for some reason I can't find the specific C++ information I need online. I’ve concluded that Arduino is basically C++, so I’ll study it for now as a way to eventually learn pure C++."
+//🇹🇼 Chinese (Traditional / 正體中文)
+//「目前我發現，不知為何我無法在網路上找到我需要的 C++ 資訊。我得出一個結論：Arduino 幾乎就是 C++，所以至少暫時我會學習它，以便最終掌握純粹的 C++。」
